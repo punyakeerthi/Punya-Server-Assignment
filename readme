@@ -1,0 +1,42 @@
+Note Please refer : ServerDetailsDemo.pptx for detail input and UI
+
+
+Please create below table in DB
+
+CREATE TABLE SERVER_DETAILS
+   (	
+		id NUMBER DEFAULT -1,  
+		name VARCHAR2(2000 BYTE),
+		language VARCHAR2(2000 BYTE), 
+		framework VARCHAR2(2000 BYTE)
+   );
+    
+
+
+This api is for saving data:
+
+http://localhost:9002/putServerDetails
+
+
+This api is for get server details without parameters:
+
+http://localhost:9002/getServerDetails
+
+
+This api is for get server details with param :
+
+http://localhost:9002/getServerDetails/123
+
+
+This api is for get server details by server name
+
+http://localhost:9002/getServerByName/my cent
+
+
+this api is for deleteing the details on the basis of id
+
+http://localhost:9002/deleteServerDetails/125
+
+
+
+Please refer 
